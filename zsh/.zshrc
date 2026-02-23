@@ -41,8 +41,14 @@ alias c='clear'                                                        # clear t
 export EDITOR=code
 
 # MY ALIASES
+alias po="poweroff"
 alias conf="cd ~/.config"
-alias conf nvim="cd ~/.config/nvim"
-alias conf hypr="cd ~/.config/hypr/hyprland"
+alias cnvim="cd ~/.config/nvim && nvim ."
+alias chypr="cd ~/.config/hypr && nvim ."
+alias czsh="cd ~/.config/zsh && vim .zshrc"
+
+# For Project Files With NVIM
+alias gopro="cd ~/go_projects && nvim ."
+alias gorun="go run ."
 
 # unset -f command_not_found_handler # Uncomment to prevent searching for commands not found in package manager
