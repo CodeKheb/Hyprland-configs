@@ -47,7 +47,10 @@ alias cnvim="cd ~/.config/nvim && nvim ."
 alias chypr="cd ~/.config/hypr && nvim ."
 alias czsh="cd ~/.config/zsh && vim .zshrc"
 
+
 # For Project Files With NVIM
+alias nvim="nvim ."
+alias cpnvim="cp -rfv ~/.config/nvim ~/dotfiles"
 alias gopro="cd ~/go_projects && nvim ."
 alias gorun="go run ."
 
